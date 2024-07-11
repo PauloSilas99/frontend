@@ -1,12 +1,14 @@
 
 .divInfoNome{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
     padding: 80px 0px;
 }
 .imgEu{
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
     border-radius: 100%;
 }
 
@@ -23,10 +25,13 @@
     font-weight: bold;
     color: white;
     font-family: "Michroma", sans-serif;
+    margin-top: -10px;
 }
 
 .divNome{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .divBtns{

@@ -8,3 +8,15 @@
 .textoSkills{
     text-align: center;
 }
+.imgIcon{
+    width: 50px;
+}
+.imgIconFig{
+    width: 35px;
+}
+.iconsTec{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}

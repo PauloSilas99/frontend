@@ -12,8 +12,22 @@ function App() {
     <>
       <Header  />
       <InfoNome />
-      <Sobre />
-      <Skills />
+      <div className='divInfoSkills'>
+        <Sobre />
+        <Skills />
+      </div>
+      <div className='divProjetos'>
+        <h3>Projects:</h3>
+        <div className='divBtns'>
+          <button>FrontEnd</button>
+          <button>Backend</button>
+        </div>
+      </div>
+      <div className='areaProjetos'>
+
+      </div>
+      
+      
     </>
   )
 }
