@@ -1,0 +1,15 @@
+
+.divSobre{
+    background: #f0f0f0;
+    width: 96%;
+    border-radius: 4px;
+    margin: 0px auto;
+    padding: 10px;
+}
+.h3Sobre{
+    text-align: center;
+}
+.pSobre{
+    padding: 0px 40px;
+    font-weight: bold;
+}

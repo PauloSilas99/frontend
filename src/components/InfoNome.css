@@ -1,0 +1,45 @@
+
+.divInfoNome{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 0px;
+}
+.imgEu{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.michroma-regular {
+    /* font-family: "Michroma", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white; */
+    font-size: 36px;
+}
+
+.pFrontEnd{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    font-family: "Michroma", sans-serif;
+}
+
+.divNome{
+    text-align: center;
+}
+
+.divBtns{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.btn{
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 12px;
+}
