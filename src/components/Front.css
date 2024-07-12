@@ -1,16 +1,16 @@
 .projetoFront{
     background: #323232;
-    width: 90%;
+    width: 85%;
     height: 240px;
     margin: 0px auto;
     border-radius: 4px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .divImg{
-    width: 200px;
-    height: 180px;
+    width: 280px;
+    height: 200px;
     background: #773535;
     border-radius: 4px;
 }
@@ -28,7 +28,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+    color: white;
 }
 .linkBtn{
     background: #D9D9D9;
@@ -39,4 +39,17 @@
 }
 .linkBtn a{
     color: black;
+}
+.divDescricao{
+    width: 300px;
+    color: white;
+}
+.tecnologia{
+    display: flex;
+    align-items:center;
+    gap: 4px;
+}
+.tecnologia img{
+    width: 20px;
+    height: 20px;
 }

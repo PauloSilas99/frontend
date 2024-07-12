@@ -1,15 +1,17 @@
 import '../components/Front.css'
+import reactjs from '../assets/Vector.png'
 
 function Front(){
     return (
         <div className="projetoFront">
             <div className='divTexto'>
                 <h3>Regitro de Motos</h3>
-                <div>
+                <div className='divDescricao'>
                     <p>Lista de registro de Motos com nome,valor,cor e opção de estoque.Cada moto adicionada pode ser editada ou excluída</p>
                 </div>
-                <div>
+                <div className='tecnologia'>
                     <p>Desenvolvido com : React.Js</p>
+                    <img src={reactjs} alt="reactjs" />
                 </div>
             </div>
             <div className='divImgLinks'>

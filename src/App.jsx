@@ -42,7 +42,7 @@ function App() {
         </div>
       </div>
       <div className='areaProjetos'>
-      {renderComponente()}
+        {renderComponente()}
       </div>
       <div id='section4'>
         <Contato  /> 
