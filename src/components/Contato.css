@@ -1,0 +1,38 @@
+.divContato h3{
+    color: white;
+    padding: 0px 20px;
+}
+.divContato span{
+    text-align: center;
+    color: white;
+}
+.divIconsContato{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    align-items: center;
+    background: #323232;
+    width: 98%;
+    margin: 0px auto;
+    border-radius: 4px;
+    height: 200px;
+}
+.spanCopy{
+    display: flex;
+    justify-content: center;
+    margin: 8px 0px;
+}
+.iconContato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+.icon{
+    width: 40px;
+    color: white;
+}

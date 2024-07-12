@@ -4,6 +4,7 @@ import Header from './components/Header'
 import InfoNome from './components/InfoNome'
 import Sobre from './components/Sobre'
 import Skills from './components/Skills'
+import Contato from './components/Contato'
 
 function App() {
   
@@ -26,8 +27,7 @@ function App() {
       <div className='areaProjetos'>
 
       </div>
-      
-      
+      <Contato />   
     </>
   )
 }
