@@ -1,24 +1,33 @@
+
+.projetos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 .projetoFront{
     background: #323232;
-    width: 85%;
-    height: 240px;
+    width: 80%;
+    height: 280px;
     margin: 0px auto;
     border-radius: 4px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 100px;
 }
 .divImg{
-    width: 280px;
-    height: 200px;
-    background: #773535;
-    border-radius: 4px;
+    width: 300px;
+    /* background: #773535;
+    border-radius: 4px; */
+}
+.divImg img{
+    width: 100%;
 }
 .divImgLinks{
     display: flex;
     flex-direction: column;
-    gap: 20px;
     align-items: center;
+    gap: 10px;
 }
 .linksProjeto{
     display: flex;
@@ -31,17 +40,18 @@
     color: white;
 }
 .linkBtn{
-    background: #D9D9D9;
+    /* background: #D9D9D9; */
+    background: #053AF6;
     border: 1px solid rgb(56, 56, 56);
     padding: 8px 12px;
     border-radius: 4px;
     cursor: pointer;
 }
 .linkBtn a{
-    color: black;
+    color: white;
 }
 .divDescricao{
-    width: 300px;
+    width: 340px;
     color: white;
 }
 .tecnologia{
@@ -50,6 +60,6 @@
     gap: 4px;
 }
 .tecnologia img{
-    width: 20px;
+    width: 24px;
     height: 20px;
 }
