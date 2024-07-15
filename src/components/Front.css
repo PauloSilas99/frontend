@@ -70,3 +70,6 @@
     display: flex;
     justify-content: center;
 }
+.listaVue{
+    width: 300px;
+}

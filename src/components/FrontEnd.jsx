@@ -2,6 +2,8 @@ import '../components/Front.css'
 import reactjs from '../assets/Vector.png'
 import imgReact from '../assets/CapturaProjetoReact 1.svg'
 import ProjetoApp from '../assets/projeto-app.png'
+import VueLista from '../assets/vue-lista 1.png'
+import vue from '../assets/Group 4.png'
 
 function Front(){
     return (
@@ -50,6 +52,29 @@ function Front(){
                     <div className='linksProjeto'>
                         <div className='linkBtn'>
                             <a href="https://github.com/PauloSilas99/AppCobran-a.git">Repositório</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="projetoFront">
+                <div className='divTexto'>
+                    <h3>Lista de Atividades</h3>
+                    <div className='divDescricao'>
+                        <p>Lista de atividades acompanhado de data e hora no registro e na edição.</p>
+                    </div>
+                    <div className='tecnologia'>
+                        <p>Desenvolvido com : Vue</p>
+                        <img src={vue} alt="vue" />
+                    </div>
+                </div>
+                <div className='divImgLinks'>
+                    <div className='divImg listaVue'>
+                        <img src={VueLista} alt="VueLista" />
+                    </div>
+                    <div className='linksProjeto'>
+                        <div className='linkBtn'>
+                            <a href="https://github.com/PauloSilas99/lista-vue.git">Repositório</a>
                         </div>
                     </div>
                 </div>
