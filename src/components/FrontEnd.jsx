@@ -73,6 +73,9 @@ function Front(){
                         <img src={VueLista} alt="VueLista" />
                     </div>
                     <div className='linksProjeto'>
+                    <div className='linkBtn'>
+                            <a href="https://lista-vue-chi.vercel.app/">Ver Projeto</a>
+                        </div>
                         <div className='linkBtn'>
                             <a href="https://github.com/PauloSilas99/lista-vue.git">Repositório</a>
                         </div>
