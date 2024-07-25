@@ -4,6 +4,8 @@ import imgReact from '../assets/CapturaProjetoReact 1.svg'
 import ProjetoApp from '../assets/projeto-app.png'
 import VueLista from '../assets/vue-lista 1.png'
 import vue from '../assets/Group 4.png'
+import DoughnutChart from '../components/Grafico.jsx'
+
 
 function Front(){
     return (
@@ -18,6 +20,9 @@ function Front(){
                         <p>Desenvolvido com : React.Js</p>
                         <img src={reactjs} alt="reactjs" />
                     </div>
+                </div>
+                <div>
+                  
                 </div>
                 <div className='divImgLinks'>
                     <div className='divImg'>
@@ -67,6 +72,9 @@ function Front(){
                         <p>Desenvolvido com : Vue</p>
                         <img src={vue} alt="vue" />
                     </div>
+                </div>
+                <div>
+                    <DoughnutChart />
                 </div>
                 <div className='divImgLinks'>
                     <div className='divImg listaVue'>

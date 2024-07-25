@@ -5,13 +5,12 @@ import linkIn from '../assets/mdi_linkedin.svg'
 function InfoNome(){
     return(
         <div className='divInfoNome'>
-            <div>
-                <img className='imgEu' src={foto} alt="foto" />
-            </div>
             <div className='divNome'>
-                <h1 className='michroma-regular'>Paulo Silas</h1>
-                <p className='pFrontEnd'>FrontEnd Developer</p>
-                <div className='divBtns'>
+                <h2 className='pNome'>Olá, me chamo <span className='michroma-regular px'>Paulo Silas</span>. Seja bem vindo!</h2>
+                <div className='divDev'>
+                    <p className='pFrontEnd'>Um Desenvolvedor explorando o universo Web e Mobile, dedicado a agregar valor e proporcionar uma experiência ao usuário que seja visualmente atraente e funcional.</p>
+                </div>
+                {/* <div className='divBtns'>
                     <div className='btn'>
                         <img src={github} alt="github" />
                         <a href="https://github.com/PauloSilas99">GitHub</a>
@@ -20,7 +19,7 @@ function InfoNome(){
                         <img src={linkIn} alt="linkIn" />
                         <a href="https://www.linkedin.com/in/paulo-silas-sodr%C3%A9-fonseca/">LinkedIn</a>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )

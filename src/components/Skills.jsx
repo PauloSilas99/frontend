@@ -15,7 +15,7 @@ function Skills(){
     return (
         <div className="divSkills">
             <h3 className='textoSkills'>Skills</h3>
-            <div className='iconsTec'>
+            <div className='iconsTec scroll-container'>
                 <div>
                     <img className='imgIcon' src={html} alt="html" />
                 </div>
@@ -46,6 +46,7 @@ function Skills(){
                 <div>
                     <img className='imgIcon' src={tail} alt="tail" />
                 </div>
+                
             </div>
         </div>
     )

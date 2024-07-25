@@ -19,4 +19,10 @@
     align-items: center;
     justify-content: space-around;
     padding-bottom: 10px;
+    
+}
+.scroll-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
 }

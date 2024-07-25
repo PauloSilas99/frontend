@@ -12,26 +12,25 @@
     border-radius: 100%;
 }
 
-.michroma-regular {
-    /* font-family: "Michroma", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    color: white; */
-    font-size: 36px;
+.divDev{
+    margin: 0px auto;
+    width: 500px;
 }
-
 .pFrontEnd{
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 20px;
     color: white;
-    font-family: "Michroma", sans-serif;
-    margin-top: -10px;
+    text-align: center;
 }
 
 .divNome{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.pNome{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .divBtns{
@@ -47,4 +46,8 @@
     align-items: center;
     gap: 4px;
     padding: 4px 12px;
+}
+.px{
+    font-size: 32px;
+    color: #3f19a5;
 }

@@ -8,6 +8,7 @@ import Contato from './components/Contato'
 import { useState } from 'react'
 import Front from './components/FrontEnd'
 import Back from './components/Back'
+import DoughnutChart from './components/Grafico.jsx'
 
 
 function App() {
@@ -26,16 +27,16 @@ function App() {
       <Header  />
       <InfoNome />
       <div className='divInfoSkills'>
-        <div id='section1'>
+        {/* <div id='section1'>
           <Sobre  />
-        </div>
+        </div> */}
         <div id='section2'>
           <Skills  />
         </div>
        
       </div>
       <div className='divProjetos' id='section3'>
-        <h3>Projects:</h3>
+        <h3>Projetos Recentes</h3>
         <div className='divBtns'>
           <button onClick={()=>{setComponente('Front')}}>Frontend</button>
           <button onClick={()=>{setComponente('Back')}}>Backend</button>

@@ -9,30 +9,38 @@
 .divIconsContato{
     display: flex;
     flex-direction: column;
-    justify-content: space-around; 
+    justify-content: center; 
     align-items: center;
-    background: #323232;
+    gap: 20px;
+    /* background: #323232; */
     width: 98%;
-    margin: 0px auto;
-    border-radius: 4px;
+    margin: 14px auto;
     height: 200px;
 }
 .spanCopy{
     display: flex;
     justify-content: center;
-    margin: 8px 0px;
+    margin-bottom: 20px;
+    font-size: 12px;
 }
 .iconContato{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.iconContato span{
+    font-size: 12px;
+}
 .icons{
     display: flex;
     align-items: center;
-    gap: 120px;
+    gap: 30px;
 }
 .icon{
-    width: 40px;
+    width: 24px;
     color: white;
+}
+.txtMot{
+    color: white;
+    font-size: 14px;
 }

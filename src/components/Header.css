@@ -11,6 +11,14 @@
     gap: 24px;
     color: white;
 }
+.linksHeader a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background: #3e19a340;
+    padding: 8px 14px;
+    border-radius: 16px;
+}
 
 .michroma-regular {
     font-family: "Michroma", sans-serif;
@@ -19,10 +27,6 @@
     color: white;
     font-size: 24px;
 }
-a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-  }
+
 
   
