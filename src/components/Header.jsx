@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../components/Header.css'
 
-function Header(){
+function Header({ abrirModal }){
 
     const handleScroll = (id, e) => {
         e.preventDefault();
@@ -11,11 +11,6 @@ function Header(){
         }
     };
 
-    const [modal,setModal] = useState(false);
-    const abrirModal = ()=>{
-        setModal(!modal)
-    }
-
     return(
         <header className="header">
             <div>
@@ -24,7 +19,7 @@ function Header(){
 
             <div className='linksHeader'>
                 <a href="#section3" onClick={(e) => handleScroll('section3', e)}>Projetos</a>
-                <a href="#" onClick={()=>{abrirModal()}}>Contato</a>
+                <a href='#' onClick={ abrirModal }>Contato</a>
             </div>
             
         </header>

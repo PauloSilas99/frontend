@@ -19,10 +19,19 @@ function App() {
     }
   }
 
+  const [modal,setModal] = useState(false);
+    function abrirModal(){
+        setModal(true)
+    }
+    function fecharModal(){
+      setModal(false)
+    }
+
   return (
     <>
-      <Header />
-      <Contato isOpen={false}/>
+      <Header abrirModal={abrirModal} />
+      {modal && <Contato fecharModal={fecharModal} />}
+      {/* <Contato isOpen={modal}/> */}
       <InfoNome />
       <div className='divInfoSkills'>
         <div>
