@@ -8,6 +8,9 @@ import DoughnutChart from '../components/Grafico.jsx'
 
 
 function Front(){
+
+
+
     return (
         <div className='projetos'>
             <div className="projetoFront">
@@ -21,8 +24,11 @@ function Front(){
                         <img src={reactjs} alt="reactjs" />
                     </div>
                 </div>
-                <div>
-                  
+                <div className='divGrafico'>
+                    <DoughnutChart 
+                    labels={['React', 'CSS', 'HTML']}
+                    dataValues={[9852, 4263, 713]} 
+                    />
                 </div>
                 <div className='divImgLinks'>
                     <div className='divImg'>
@@ -30,10 +36,10 @@ function Front(){
                     </div>
                     <div className='linksProjeto'>
                         <div className='linkBtn'>
-                            <a href="https://teste-motoca-systems-front-6s7c10yjg-paulo-silas-projects.vercel.app/">Ver Projeto</a>
+                            <a href="https://teste-motoca-systems-front-6s7c10yjg-paulo-silas-projects.vercel.app/" target='_blank'>Ver Projeto</a>
                         </div>
                         <div className='linkBtn'>
-                            <a href="https://github.com/PauloSilas99/teste-motocaSystems-frontEnd">Repositório</a>
+                            <a href="https://github.com/PauloSilas99/teste-motocaSystems-frontEnd" target='_blank'>Repositório</a>
                         </div>
                     </div>
                 </div>
@@ -50,19 +56,23 @@ function Front(){
                         <img src={reactjs} alt="reactjs" />
                     </div>
                 </div>
+                <DoughnutChart 
+                    labels={['React Native']}
+                    dataValues={[24251]} 
+                    />
                 <div className='divImgLinks'>
                     <div className='divImg projApp'>
                         <img src={ProjetoApp} alt="ProjetoApp" />
                     </div>
                     <div className='linksProjeto'>
                         <div className='linkBtn'>
-                            <a href="https://github.com/PauloSilas99/AppCobran-a.git">Repositório</a>
+                            <a href="https://github.com/PauloSilas99/AppCobran-a.git" target='_blank'>Repositório</a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="projetoFront">
+            <div className="projetoFront semBorda">
                 <div className='divTexto'>
                     <h3>Lista de Atividades</h3>
                     <div className='divDescricao'>
@@ -74,7 +84,10 @@ function Front(){
                     </div>
                 </div>
                 <div>
-                    <DoughnutChart />
+                    <DoughnutChart 
+                    labels={['Vue', 'CSS', 'HTML', 'JavaScript']}
+                    dataValues={[4163, 1276, 357, 268]} 
+                    />
                 </div>
                 <div className='divImgLinks'>
                     <div className='divImg listaVue'>
@@ -82,10 +95,10 @@ function Front(){
                     </div>
                     <div className='linksProjeto'>
                     <div className='linkBtn'>
-                            <a href="https://lista-vue-chi.vercel.app/">Ver Projeto</a>
+                            <a href="https://lista-vue-chi.vercel.app/" target='_blank'>Ver Projeto</a>
                         </div>
                         <div className='linkBtn'>
-                            <a href="https://github.com/PauloSilas99/lista-vue.git">Repositório</a>
+                            <a href="https://github.com/PauloSilas99/lista-vue.git" target='_blank'>Repositório</a>
                         </div>
                     </div>
                 </div>

@@ -1,8 +1,4 @@
 .divGrafico{
-    display: flex;
-    flex-direction: column;
-    color: white;
-}
-.pxGrafico{
     width: 200px;
+    height: 200px;
 }

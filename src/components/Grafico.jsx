@@ -15,13 +15,13 @@ ChartJS.register(
   Legend
 );
 
-const DoughnutChart = () => {
+const DoughnutChart = ({labels,dataValues}) => {
   const data = {
-    labels: ['Vue', 'CSS', 'HTML', 'JavaScript'],
+    labels: labels,
     datasets: [
       {
-        label: 'Votes',
-        data: [4163, 1276, 357, 268],
+        label: 'Tecnologia',
+        data: dataValues,
         backgroundColor: [
           'rgba(255, 99, 132, 0.2)',
           'rgba(54, 162, 235, 0.2)',
@@ -45,9 +45,7 @@ const DoughnutChart = () => {
 
   return (
     <div className='divGrafico'>
-      <div className='pxGrafico'>
         <Doughnut data={data} />
-      </div> 
     </div>
   );
 }

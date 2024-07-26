@@ -5,15 +5,18 @@
     gap: 10px;
 }
 .projetoFront{
-    /* background: #323232; */
-    width: 80%;
+    /* border: 1px solid #053AF6; */
+    border-bottom: 1px solid #ffffff80;
+    width: 90%;
     height: 280px;
     margin: 0px auto;
     border-radius: 4px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    /* gap: 100px; */
+    justify-content: space-around;
+}
+.semBorda{
+    border: none;
 }
 .divImg{
     width: 300px;
@@ -22,6 +25,7 @@
 }
 .divImg img{
     width: 100%;
+    border-radius: 12px;
 }
 .divImgLinks{
     display: flex;
@@ -42,13 +46,14 @@
 .linkBtn{
     /* background: #D9D9D9; */
     background: #053AF6;
-    border: 1px solid rgb(56, 56, 56);
+    /* border: 1px solid rgb(56, 56, 56); */
     padding: 8px 12px;
-    border-radius: 4px;
+    border-radius: 6px;
     cursor: pointer;
 }
 .linkBtn a{
     color: white;
+    text-decoration: none;
 }
 .divDescricao{
     width: 340px;
@@ -73,3 +78,7 @@
 .listaVue{
     width: 300px;
 }
+/* .divGrafico{
+    width: 200px;
+    background: #053AF6;
+} */

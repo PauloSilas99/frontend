@@ -30,7 +30,7 @@ function App() {
         </div>
       </div>
       <div className='divProjetos' id='section3'>
-        <h3>Projetos Recentes</h3>
+        <h2>Projetos Recentes</h2>
         <div className='divBtns'>
           <button onClick={()=>{setComponente('Front')}}>Frontend</button>
           <button onClick={()=>{setComponente('Back')}}>Backend</button>

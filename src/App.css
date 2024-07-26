@@ -33,16 +33,17 @@ body{
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 36px;
+  margin-top: 30px;
+  margin-bottom: 12px;
 }
-.divProjetos h3{
+.divProjetos h2{
   color: white;
 }
 .areaProjetos{
   background: #0b051b40;
-  width: 100%;
+  width: 90%;
   height: 450px;
-  border-radius: 4px;
+  border-radius: 10px;
   margin: 0px auto;
   padding: 40px 0px;
   overflow-y: scroll;
@@ -62,10 +63,9 @@ html {
   background: #3e19a340;
   padding: 8px 14px;
   border-radius: 16px;
-  transition: background-color 0.8s , color 0.8s ease;
+  transition: background-color 0.5s , color 0.8s ease;
 }
 .divBtns button:hover{
   background:rgb(78, 78, 124);
   color: white;
-  border: 1px solid white;
 }
