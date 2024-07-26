@@ -1,15 +1,12 @@
-
+import { useState } from 'react'
 import './App.css'
 import Header from './components/Header'
 import InfoNome from './components/InfoNome'
-import Sobre from './components/Sobre'
 import Skills from './components/Skills'
-import Contato from './components/Contato'
-import { useState } from 'react'
+import Footer from './components/Footer.jsx'
 import Front from './components/FrontEnd'
 import Back from './components/Back'
-import DoughnutChart from './components/Grafico.jsx'
-
+import Contato from './components/Contato.jsx'
 
 function App() {
   
@@ -24,16 +21,13 @@ function App() {
 
   return (
     <>
-      <Header  />
+      <Header />
+      <Contato isOpen={false}/>
       <InfoNome />
       <div className='divInfoSkills'>
-        {/* <div id='section1'>
-          <Sobre  />
-        </div> */}
-        <div id='section2'>
+        <div>
           <Skills  />
         </div>
-       
       </div>
       <div className='divProjetos' id='section3'>
         <h3>Projetos Recentes</h3>
@@ -46,7 +40,7 @@ function App() {
         {renderComponente()}
       </div>
       <div id='section4'>
-        <Contato  /> 
+        <Footer  /> 
       </div>
     </>
   )
