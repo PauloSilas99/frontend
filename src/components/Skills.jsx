@@ -1,52 +1,36 @@
 
 import '../components/Skills.css'
-import html from '../assets/html-5.png'
-import css from '../assets/css-3.png'
-import js from '../assets/js.png'
-import ts from '../assets/Group 3.png'
-import react from '../assets/Vector.png'
-import vue from '../assets/Group 4.png'
-import node from '../assets/Group 5.png'
-import jquery from '../assets/Group 6.png'
-import figma from '../assets/Group 7.png'
-import tail from '../assets/Group 8.png'
+import Tecnologias from './Tecnologias'
+import Interpessoais from './Interpessoais'
+import Servicos from './Servicos'
+import { useState } from 'react'
 
 function Skills(){
+
+    const [hab,setHab] = useState('tecnologia')
+    const DivInfoSkills = ()=>{
+        if(hab ==='tecnologia'){
+            return <Tecnologias /> 
+        }else if(hab ==='interpessoal'){
+            return <Interpessoais />
+        }else if(hab ==='servicos'){
+            return <Servicos />
+        }
+    }
+
     return (
         <div className="divSkills">
-            <h3 className='textoSkills'>Skills</h3>
-            <div className='iconsTec scroll-container'>
-                <div>
-                    <img className='imgIcon' src={html} alt="html" />
+            <h2 className='michroma-regular'>Habilidades</h2>
+            <div className='DivHab'>
+                <div className='divBtnHab'>
+                    <button onClick={()=>{setHab('tecnologia')}}>Tecnologicas</button>
+                    <button onClick={()=>{setHab('interpessoal')}}>Interpessoais</button>
+                    <button onClick={()=>{setHab('servicos')}}>Serviços</button>
+                    <button>Baixar CV</button>
                 </div>
-                <div>
-                    <img className='imgIcon' src={css} alt="css" />
+                <div className='divReaultadoHab'>
+                    {DivInfoSkills()}
                 </div>
-                <div>
-                    <img className='imgIcon' src={js} alt="js" />
-                </div>
-                <div>
-                    <img className='imgIcon' src={ts} alt="ts" />
-                </div>
-                <div>
-                    <img className='imgIcon' src={react} alt="react" />
-                </div>
-                <div>
-                    <img className='imgIcon' src={vue} alt="vue" />
-                </div>
-                <div>
-                    <img className='imgIcon' src={node} alt="node" />
-                </div>
-                <div>
-                    <img className='imgIcon' src={jquery} alt="jquery" />
-                </div>
-                <div>
-                    <img className='imgIconFig' src={figma} alt="figma" />
-                </div>
-                <div>
-                    <img className='imgIcon' src={tail} alt="tail" />
-                </div>
-                
             </div>
         </div>
     )

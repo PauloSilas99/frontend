@@ -31,7 +31,6 @@ function App() {
     <>
       <Header abrirModal={abrirModal} />
       {modal && <Contato fecharModal={fecharModal} />}
-      {/* <Contato isOpen={modal}/> */}
       <InfoNome />
       <div className='divInfoSkills'>
         <div>
@@ -39,7 +38,7 @@ function App() {
         </div>
       </div>
       <div className='divProjetos' id='section3'>
-        <h2>Projetos Recentes</h2>
+        <h2 className='michroma-regular'>Projetos Recentes</h2>
         <div className='divBtns'>
           <button onClick={()=>{setComponente('Front')}}>Frontend</button>
           <button onClick={()=>{setComponente('Back')}}>Backend</button>
