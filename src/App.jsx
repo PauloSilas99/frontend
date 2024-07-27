@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 import './App.css'
 import Header from './components/Header'
 import InfoNome from './components/InfoNome'
@@ -27,6 +27,14 @@ function App() {
       setModal(false)
     }
 
+    useEffect(() => {
+      if (modal) {
+        document.body.style.overflow = 'hidden';
+      } else {
+        document.body.style.overflow = 'auto';
+      }
+    }, [modal]);
+
   return (
     <>
       <Header abrirModal={abrirModal} />
@@ -37,6 +45,13 @@ function App() {
           <Skills  />
         </div>
       </div>
+
+      <div className='DivContato'>
+        <h3>Vamos conversar!</h3>
+        <p>Tem um projeto ou ideia incrível? Vamos falar!</p>
+        <button onClick={abrirModal}>Contato</button>
+      </div>
+
       <div className='divProjetos' id='section3'>
         <h2 className='michroma-regular'>Projetos Recentes</h2>
         <div className='divBtns'>

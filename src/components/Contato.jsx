@@ -42,7 +42,7 @@ function Contato({ fecharModal }){
                     </div>
                 </div>
                 <div>
-                    <p>Respondo rapidamente e estou ansioso para ouvir suas ideias!</p>
+                    <p>Respondo rapidamente e estou ansioso para trabalharmos juntos!</p>
                 </div>
             </div>
         </div>

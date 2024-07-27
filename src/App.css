@@ -69,3 +69,31 @@ html {
   background:rgb(78, 78, 124);
   color: white;
 }
+.DivContato{
+  border-radius: 6px;
+  width: 800px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #3f19a5;
+  background: #180c3d;
+  box-shadow: 0px 10px 20px #3f19a5;
+  color: white;
+}
+.DivContato p{
+  font-size: 18px;
+}
+.DivContato button{
+  border-radius: 14px;
+  color: white;
+  font-size: 16px;
+  padding: 10px 12px;
+  cursor: pointer;
+  border: none;
+  background: #150a33;
+  font-weight: bold;
+}
+.DivContato button:hover{
+  background: #3f19a5;
+}
