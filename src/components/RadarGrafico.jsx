@@ -5,9 +5,11 @@ const data = [
     { subject: 'TypeScript', A: 5, fullMark: 10 },
     { subject: 'React Js', A: 7, fullMark: 10 },
     { subject: 'React Native', A: 6, fullMark: 10 },
+    { subject: 'JQuery', A: 6, fullMark: 10 },
+    { subject: 'Tailwind', A: 6, fullMark: 10 },
     { subject: 'Node', A: 5, fullMark: 10 },
-    { subject: 'Figma', A: 8, fullMark: 10 },
-    { subject: 'Vue', A: 6, fullMark: 10 },
+    { subject: 'Figma', A: 7, fullMark: 10 },
+    { subject: 'Vue', A: 7, fullMark: 10 }
   ];
 const RadarTecnologia = () => (
     <ResponsiveContainer width="100%" height={400}>

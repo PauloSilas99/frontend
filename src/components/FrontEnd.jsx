@@ -1,9 +1,9 @@
 import '../components/Front.css'
-import reactjs from '../assets/Vector.png'
+import reactjs from '../assets/react-icon.svg'
 import imgReact from '../assets/CapturaProjetoReact 1.svg'
 import ProjetoApp from '../assets/projeto-app.png'
 import VueLista from '../assets/vue-lista 1.png'
-import vue from '../assets/Group 4.png'
+import vue from '../assets/logo-vue.svg'
 import DoughnutChart from '../components/Grafico.jsx'
 
 

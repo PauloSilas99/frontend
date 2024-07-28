@@ -97,3 +97,9 @@ html {
 .DivContato button:hover{
   background: #3f19a5;
 }
+@media(max-width:500px){
+  body{
+    display: flex;
+    flex: 1;
+  }
+}
