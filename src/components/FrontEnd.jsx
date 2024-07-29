@@ -8,12 +8,9 @@ import DoughnutChart from '../components/Grafico.jsx'
 
 
 function Front(){
-
-
-
     return (
         <div className='projetos'>
-            <div className="projetoFront">
+            <div className="projetoArea">
                 <div className='divTexto'>
                     <h3>Regitro de Motos</h3>
                     <div className='divDescricao'>
@@ -45,7 +42,7 @@ function Front(){
                 </div>
             </div>
 
-            <div className="projetoFront">
+            <div className="projetoArea">
                 <div className='divTexto'>
                     <h3>App Registro de Débito</h3>
                     <div className='divDescricao'>
@@ -72,7 +69,7 @@ function Front(){
                 </div>
             </div>
 
-            <div className="projetoFront semBorda">
+            <div className="projetoArea semBorda">
                 <div className='divTexto'>
                     <h3>Lista de Atividades</h3>
                     <div className='divDescricao'>
