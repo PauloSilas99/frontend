@@ -69,6 +69,33 @@ function Front(){
                 </div>
             </div>
 
+            <div className="projetoArea">
+                <div className='divTexto'>
+                    <h3>Lista de Pedidos Hamburguer</h3>
+                    <div className='divDescricao'>
+                        <p>Sistema desenvolvido para estudo de manipulaçao de dados usando uma api fake.</p>
+                    </div>
+                    <div className='tecnologia'>
+                        <p>Desenvolvido com : Vue</p>
+                        <img src={vue} alt="vue" />
+                    </div>
+                </div>
+                <DoughnutChart 
+                    labels={['React Native']}
+                    dataValues={[24251]} 
+                    />
+                <div className='divImgLinks'>
+                    <div className='divImg projApp'>
+                        <img src={ProjetoApp} alt="ProjetoApp" />
+                    </div>
+                    <div className='linksProjeto'>
+                        <div className='linkBtn'>
+                            <a href="https://github.com/PauloSilas99/AppCobran-a.git" target='_blank'>Repositório</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div className="projetoArea semBorda">
                 <div className='divTexto'>
                     <h3>Lista de Atividades</h3>
