@@ -2,6 +2,7 @@ import '../components/Front.css'
 import reactjs from '../assets/react-icon.svg'
 import imgReact from '../assets/CapturaProjetoReact 1.svg'
 import ProjetoApp from '../assets/projeto-app.png'
+import ProjetoBurger from '../assets/img-hamburger 1.png'
 import VueLista from '../assets/vue-lista 1.png'
 import vue from '../assets/logo-vue.svg'
 import DoughnutChart from '../components/Grafico.jsx'
@@ -81,16 +82,19 @@ function Front(){
                     </div>
                 </div>
                 <DoughnutChart 
-                    labels={['React Native']}
-                    dataValues={[24251]} 
+                    labels={['Vue','CSS','JavaScript','HTML']}
+                    dataValues={[11962,2000,768,611]} 
                     />
                 <div className='divImgLinks'>
-                    <div className='divImg projApp'>
-                        <img src={ProjetoApp} alt="ProjetoApp" />
+                    <div className='divImg listaVue'>
+                        <img src={ProjetoBurger} alt="ProjetoBurger" />
                     </div>
                     <div className='linksProjeto'>
                         <div className='linkBtn'>
-                            <a href="https://github.com/PauloSilas99/AppCobran-a.git" target='_blank'>Repositório</a>
+                            <a href="https://lista-hamb.vercel.app/" target='_blank'>Ver Projeto</a>
+                        </div>
+                        <div className='linkBtn'>
+                            <a href="https://github.com/PauloSilas99/lista-hamb.git" target='_blank'>Repositório</a>
                         </div>
                     </div>
                 </div>
@@ -118,7 +122,7 @@ function Front(){
                         <img src={VueLista} alt="VueLista" />
                     </div>
                     <div className='linksProjeto'>
-                    <div className='linkBtn'>
+                        <div className='linkBtn'>
                             <a href="https://lista-vue-chi.vercel.app/" target='_blank'>Ver Projeto</a>
                         </div>
                         <div className='linkBtn'>
