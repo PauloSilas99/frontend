@@ -3,6 +3,9 @@ import '../components/Front.css'
 import imgNode from '../assets/captura-back.png'
 import node from '../assets/node-icon.svg'
 import mdb from '../assets/mdb-icon.svg'
+import py from '../assets/icon-py.svg'
+import fast from '../assets/icon-fastapi.svg'
+import imgPy from '../assets/projeto-fastapi.png'
 import DoughnutChart from '../components/Grafico.jsx'
 function Back(){
     return(
@@ -32,6 +35,36 @@ function Back(){
                     <div className='linksProjeto'>
                         <div className='linkBtn'>
                             <a href="https://github.com/PauloSilas99/api-node.git" target='_blank'>Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="projetoArea semBorda">
+                <div className='divTexto'>
+                    <h3>API</h3>
+                    <div className='divDescricao'>
+                        <p>API dsenvolvida com os principios CRUD, indicando nome, descrição, preço e se o item está em oferta ou não.</p>
+                    </div>
+                    <div className='tecnologia'>
+                        <p>Desenvolvido com : Python + FastApi</p>
+                        <img src={py} alt="py" />
+                        <img style={{width:'70px'}} src={fast} alt="fast" />
+                    </div>
+                </div>
+                <div className='divGrafico'>
+                    <DoughnutChart 
+                    labels={['Python']}
+                    dataValues={[1230]} 
+                    />
+                </div>
+                <div className='divImgLinks'>
+                    <div className='divImg'>
+                        <img src={imgPy} alt="imgPy" />
+                    </div>
+                    <div className='linksProjeto'>
+                        <div className='linkBtn'>
+                            <a href="https://github.com/PauloSilas99/crud-simples-fastapi.git" target='_blank'>Ver Projeto</a>
                         </div>
                     </div>
                 </div>
